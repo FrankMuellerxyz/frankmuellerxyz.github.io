@@ -1,0 +1,79 @@
+body {
+    background: rgb(156, 168, 172);
+    border-radius: 2px;
+    background-color: rgb(110, 128, 141);;
+    /* width: 500px; */
+    margin: 50px auto;
+  }
+
+  .container {
+    border-radius: 40px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: large;
+    border-color: #011502;
+    padding: 20px;
+    background-color: #104F55;
+    line-height: 175%;
+    font-size: 18px;
+}
+  
+  .header {
+    background: rgb(156, 168, 172);
+    outline: 3px solid #011502;
+    border-radius: 12px;
+    margin: 10px;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 60px;
+    display: inline-block;
+  }
+
+  li {
+    display: inline-block;
+  }
+
+.main {
+  background: rgb(156, 168, 172);
+  outline: 3px solid #011502;
+  border-radius: 16px;
+  padding: 10px;
+  margin: 10px;
+}
+  .footer {
+      background: rgb(156, 168, 172);
+      outline: 3px solid #011502;
+      border-radius: 16px;
+      padding: 10px;
+      margin: 10px;
+      text-align: center;
+  }
+  
+  .socials {
+    height: 50px;
+    font-size: 20px;
+    }
+
+
+.flex-container {
+  
+  display: flex;
+}
+
+/* this selector selects all divs inside of .flex-container */
+.flex-container div {
+  background: rgb(156, 168, 172);
+  outline: 3px solid rgb(59, 113, 149);
+  height: 100px;
+  border-radius: 16px;
+  margin: 10px;
+  /* flex: 1; */
+}
+.flex-container .two {
+  background-color: rgb(170, 124, 40);
+  flex: 2 1 0%;
+}
