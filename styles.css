@@ -1,0 +1,58 @@
+@font-face { 
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	src: url(/fonts/Inter.woff2) format("woff2")
+  }
+
+body {
+	font-family: "Inter", Georgia, serif;
+	background: #00c3ff;  
+	background: -webkit-linear-gradient(to left, #ffff1c, #00c3ff);
+	background: linear-gradient(to left, #ffff1c, #00c3ff);
+}  
+
+h1 {
+    font-size: 3.5vw;
+}
+
+p {
+    font-size: 1.25vw;
+}
+  
+a {
+    color: inherit;
+    display: inline-block;
+    border-bottom: solid 2px #000;
+    text-decoration: none; 
+}
+
+a:hover {
+      color: #3d1eff;
+      border-color: #3d1eff; 
+}
+
+main {
+	background-color: white;
+	max-width: 960px;
+	margin: 2rem auto;
+	padding: 5rem;
+	border: 5px solid black;
+	border-radius: 20px;
+}
+
+@media (max-width: 1024px) {
+
+	h1 {
+		font-size: 8vw;
+	}
+	
+	p {
+		font-size: 4vw;
+	}
+
+	main {
+		margin: 2rem;
+		padding: 2rem;
+	}
+}
